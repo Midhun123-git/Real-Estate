@@ -1,9 +1,9 @@
 import React from 'react'
-import Card from "../assets/Card5.jpg"
+import Card from "../assets/Card6.jpg"
 import { FaStar } from "react-icons/fa";
 import { IoShareSocialOutline } from "react-icons/io5";
 import { MdFavorite } from "react-icons/md";
-const Card2 = () => {
+const Card3 = () => {
   return (
     <div className='w-full lg:w-[392px] h-auto
     bg-[#FFFFFF] rounded-2xl  border flex flex-col gap-2  
@@ -32,7 +32,9 @@ const Card2 = () => {
       <div className='flex flex-col gap-1'>
         {/* Price Section Starts*/}
           
-                <p className='pl-2  font-bold text-[22px]'>₹50 Lac</p>
+        <p className='p-2 pb-0 font-bold text-[22px]'>₹10,000
+                  <span className='text-[#7D7F88] font-normal text-[20px]'>/Month</span>
+                  </p>
                 <p className='pl-2  font-bold text-[22px]'>3BHK House</p>
                  
           </div>
@@ -49,9 +51,7 @@ const Card2 = () => {
               {/* Place And  Review  Endss*/}
                
       </div>
-
-    
   )
 }
 
-export default Card2
+export default Card3
