@@ -6,6 +6,7 @@ import Card2 from './Components/Card2'
 import Card3 from './Components/Card3'
 import Card4 from './Components/Card4'
 import Card5 from './Components/Card5'
+import Footer from './Components/Footer'
 const App = () => {
   return (
    <Routes>
@@ -15,6 +16,7 @@ const App = () => {
     <Route path="/Card3" element={<Card3/>}/>
     <Route path="/Card4" element={<Card4/>}/>
     <Route path="/Card5" element={<Card5/>}/>
+    <Route path="/Footer" element={<Footer/>}/>
     </Routes>
   )
 }
