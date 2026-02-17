@@ -7,6 +7,7 @@ import Card3 from './Components/Card3'
 import Card4 from './Components/Card4'
 import Card5 from './Components/Card5'
 import Footer from './Components/Footer'
+import Banner from './Components/Banner'
 const App = () => {
   return (
    <Routes>
@@ -17,6 +18,8 @@ const App = () => {
     <Route path="/Card4" element={<Card4/>}/>
     <Route path="/Card5" element={<Card5/>}/>
     <Route path="/Footer" element={<Footer/>}/>
+    <Route path="/Banner" element={<Banner/>}/>
+
     </Routes>
   )
 }

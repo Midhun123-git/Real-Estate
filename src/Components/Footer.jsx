@@ -11,8 +11,7 @@ const Footer = () => {
 
     
      
-      <div className='w-full flex flex-row justify-between lg:hidden gap-6'> {/* ✅ MOBILE ROW 1 */}
-
+      <div className='w-full flex flex-row justify-between lg:hidden gap-6'>
         {/* Logo Section */}
         <div className='flex flex-col gap-4'>
           <img 
