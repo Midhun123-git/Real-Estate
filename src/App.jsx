@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route,Routes} from 'react-router-dom'
-import Comp1 from './Components/Comp1'
+import Header from './Components/Header'
 const App = () => {
   return (
    <Routes>
-    <Route path="/Comp1" element={<Comp1/>}/>
+    <Route path="/Header" element={<Header/>}/>
     </Routes>
   )
 }
