@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import Card1 from './Components/Card1'
 import Card2 from './Components/Card2'
 import Card3 from './Components/Card3'
+import Card4 from './Components/Card4'
 const App = () => {
   return (
    <Routes>
@@ -11,6 +12,7 @@ const App = () => {
     <Route path="/Card1" element={<Card1/>}/>
     <Route path="/Card2" element={<Card2/>}/>
     <Route path="/Card3" element={<Card3/>}/>
+    <Route path="/Card4" element={<Card4/>}/>
     </Routes>
   )
 }
