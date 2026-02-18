@@ -47,11 +47,11 @@ const Card3 = () => {
     ]
   return (
 
-    <div className='flex gap-2'>
+    <div className='flex flex-col lg:flex-row  gap-2'>
         {
             cards.map((items)=>(
-                <div className='w-full lg:w-[392px] h-auto
-                bg-[#FFFFFF] rounded-2xl  border flex flex-col gap-2  
+                <div className='w-full 
+                bg-[#FFFFFF] rounded-2xl   flex flex-col gap-2  
                 '>  
                 {/* top Img  Starts */}
                   <div className='w-full h-[246px] p-2 relative'>
@@ -59,14 +59,14 @@ const Card3 = () => {
                     {/* Share Icon Starts */}
                     <div className='w-[34px] h-[34px] bg-[#FFFFFF]/60
                     cursor-pointer
-                    rounded-full flex items-center justify-center absolute top-4 left-[75%]
+                    rounded-full flex items-center justify-center absolute top-4 left-[70%]
                     '>
                           <IoShareSocialOutline size={16} className='text-[#11A6A1]'/>
                     </div>
                     {/* Share Icon Ends */}
                     {/* Favorite Icon Starts */}
                     <div className='w-[34px] h-[34px] bg-[#FFFFFF]/60
-                    rounded-full flex items-center justify-center absolute top-4 left-[88%]
+                    rounded-full flex items-center justify-center absolute top-4 left-[85%]
                     cursor-pointer
                     '>
                           <MdFavorite size={16} className='text-[#11A6A1]'/>

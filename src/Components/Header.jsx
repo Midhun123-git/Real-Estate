@@ -61,12 +61,12 @@ const Header = () => {
                             </div>
                             
                             </div>
-                    <div className='flex flex-col gap-6 p-6'>
+                    <div className='flex flex-col gap-6 p-6 cursor-pointer'>
                             {
                                 NavBar.map((items)=>(
                                     <div className=' flex gap-3 items-center' key={items.id}>
                                             {items.icon}
-                                            <p className='text-[18px]'
+                                            <p className='text-[18px] cursor-pointer'
                                             style={{
                                                 color:items.textcolor,
                                                 weight:items.weight
